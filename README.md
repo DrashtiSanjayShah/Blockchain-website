@@ -7,3 +7,4 @@
    this runs the test smart contract that had gotten installed. but, i faced this error,  <img width="864" alt="Screenshot 2023-10-29 at 2 00 31 AM" src="https://github.com/DrashtiSanjayShah/Blockchain-website/assets/94853646/0c0ff922-bbf4-48cf-9929-a15973513236">
 
    to solve this, simply run this command npm i @nomicfoundation/hardhat-toolbox.
+You can check this thread out on StackOverflow:**https://stackoverflow.com/questions/73431182/cannot-find-module-nomicfoundation-hardhat-toolbox** 
