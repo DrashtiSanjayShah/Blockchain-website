@@ -22,3 +22,6 @@ You can check this thread out on StackOverflow:**https://stackoverflow.com/quest
   return `${address.slice(0, 5)}...${address.slice(address.length - 4)}`;
 };
 
+5. Make sure that you are in the client folder when trying to use the commands "npm run build" or as i had used yarn 'yarn build'.
+If you try to follow any of their videos, they ask to move out of the folders and come in the root directory to build the app. This unfortunately has not worked for me!🥹 
+
