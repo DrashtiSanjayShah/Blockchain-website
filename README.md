@@ -8,3 +8,17 @@
 
    to solve this, simply run this command npm i @nomicfoundation/hardhat-toolbox.
 You can check this thread out on StackOverflow:**https://stackoverflow.com/questions/73431182/cannot-find-module-nomicfoundation-hardhat-toolbox** 
+
+4. While trying to display a part of the public address, you would be using the .slice method. there is a chance that you will get this error
+<img width="551" alt="Screenshot 2023-11-06 at 1 16 35 PM" src="https://github.com/DrashtiSanjayShah/Blockchain-website/assets/94853646/41c86019-787f-48d7-a879-59d88f0b8327">
+   so, to make this work, instead of this code
+   # export const shortenAddress = (address) => `${address.slice(0, 5)}...${address.slice(address.length - 4)}`;
+   use
+   # export const shortenAddress = (address) => {
+  if (!address) {
+    return "Invalid Address";
+  }
+
+  return `${address.slice(0, 5)}...${address.slice(address.length - 4)}`;
+};
+
