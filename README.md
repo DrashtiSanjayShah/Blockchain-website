@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Blockchain-website
 
 ## DEMO
@@ -33,3 +34,13 @@ You can check this thread out on StackOverflow:**https://stackoverflow.com/quest
 5. Make sure that you are in the client folder when trying to use the commands "npm run build" or as i had used yarn 'yarn build'.
 If you try to follow any of their videos, they ask to move out of the folders and come in the root directory to build the app. This unfortunately has not worked for me!🥹 
 
+=======
+# React + Vite
+
+This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+
+Currently, two official plugins are available:
+
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+>>>>>>> daffbdc (Adding client folder)
