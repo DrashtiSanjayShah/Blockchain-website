@@ -1,10 +1,11 @@
 # Blockchain-website
 
+# Link to the Website
+
+https://6548e205c496e52947209a45--melodious-cucurucho-a6b941.netlify.app/
+
 ## DEMO
-
-
 https://github.com/DrashtiSanjayShah/Blockchain-website/assets/94853646/26a74f57-a404-433c-a73d-60c7b2356bb8
-
 
 
 1. While trying to make changes in tailwind.config.js, make sure to install npm install @tailwindcss/forms in the client directory to not land onto any errors. (At 1:03:12) 
